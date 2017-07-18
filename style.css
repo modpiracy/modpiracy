@@ -1,0 +1,46 @@
+body {
+    background-image: url("bg.jpg");
+    color: white;
+}
+#tv {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  background-image: url("fighter.jpg");
+  background-size: 600px 400px;
+  border-radius: 50% / 10%;
+  text-align: center;
+  text-indent: .1em;
+}
+#tv:before {
+  content: '';
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+h1 {
+    font-size: 1.5em;
+}
+#tv2 {
+  position: relative;
+  width: 500px;
+  height: 115px;
+  margin: 20px 50px;  
+  background-image: url("leather.png");
+  border-radius: 50% / 10%;
+  text-align: center;
+  text-indent: .1em;
+}
+#tv2:before {
+  content: '';
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
