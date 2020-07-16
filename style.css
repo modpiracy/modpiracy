@@ -27,6 +27,7 @@ h1 {
 }
 #tv2 {
   position: relative;
+  padding-top: 10px;
   width: 500px;
   height: 115px;
   margin: 20px 50px;  
@@ -37,7 +38,6 @@ h1 {
 }
 #tv2:before {
   content: ''; 
-  padding-top: 10px;
   top: 10%;
   bottom: 10%;
   right: -5%;
