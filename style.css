@@ -36,7 +36,8 @@ h1 {
   text-indent: .1em;
 }
 #tv2:before {
-  content: '';
+  content: ''; 
+  padding-top: 10px;
   top: 10%;
   bottom: 10%;
   right: -5%;
